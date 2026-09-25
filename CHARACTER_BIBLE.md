@@ -135,12 +135,30 @@ watermarks, UI, borders, grid lines, frames, ink splashes, blood, wounds, gore.
 | `art/turnaround/*.png` | original full-resolution renders |
 | `art/weaponless/*.png` | original full-resolution weaponless render |
 | `tools/build_master_sheet.py` | rebuilds the sheet + normalised views |
+| `art/poses/01_movement_sheet.png` | pose sheet — movement (stances, walk, run, dash, jump, fall, get-up) |
+| `art/poses/02_attack_sheet.png` | pose sheet — attacks (punches, strikes, sword thrusts, kicks) |
+| `art/poses/03_defence_sheet.png` | pose sheet — defence (blocks, parries, dodges, knockback, knockdown, get-up), solo |
+| `art/poses/04_sword_sheet.png` | pose sheet — katana (guards, parries, slashes, draw, sheathe, rest) |
+| `poses/<sheet>_NN.png` | one transparent RGBA cut-out per figure, NN = reading order (59 total) |
+| `poses/poses.json` | manifest `{sheet: [{file, box:[x0,y0,x1,y1]}]}`, box in sheet pixels |
+| `tools/split_poses.py` | splits pose sheets into per-figure transparent PNGs |
 
 Rebuild:
 
 ```bash
 python3 tools/build_master_sheet.py
 ```
+
+Split pose sheets into per-figure cut-outs:
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install numpy scipy pillow
+.venv/bin/python tools/split_poses.py -i art/poses -o poses   # defaults: -i input -o poses
+```
+
+Alpha comes from luminance (paper ≥ L238 → transparent, darkest ink → opaque, grays
+semi-transparent); RGB is copied untouched. Figures that touch on the sheet are separated
+along their strokes, so blades and ponytails stay with the right body.
 
 The build script unifies paper tone across views, applies a gentle black-point lift that
 keeps the ink washes open, matches figure scale to a common height, aligns the ground line,

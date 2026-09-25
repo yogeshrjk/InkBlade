@@ -1,0 +1,541 @@
+{
+  "01_movement_sheet": [
+    {
+      "file": "01_movement_sheet_01.png",
+      "box": [
+        68,
+        12,
+        244,
+        289
+      ]
+    },
+    {
+      "file": "01_movement_sheet_02.png",
+      "box": [
+        259,
+        15,
+        448,
+        288
+      ]
+    },
+    {
+      "file": "01_movement_sheet_03.png",
+      "box": [
+        477,
+        17,
+        668,
+        290
+      ]
+    },
+    {
+      "file": "01_movement_sheet_04.png",
+      "box": [
+        698,
+        18,
+        892,
+        290
+      ]
+    },
+    {
+      "file": "01_movement_sheet_05.png",
+      "box": [
+        920,
+        13,
+        1114,
+        289
+      ]
+    },
+    {
+      "file": "01_movement_sheet_06.png",
+      "box": [
+        1132,
+        12,
+        1312,
+        286
+      ]
+    },
+    {
+      "file": "01_movement_sheet_07.png",
+      "box": [
+        40,
+        276,
+        215,
+        531
+      ]
+    },
+    {
+      "file": "01_movement_sheet_08.png",
+      "box": [
+        283,
+        283,
+        482,
+        529
+      ]
+    },
+    {
+      "file": "01_movement_sheet_09.png",
+      "box": [
+        558,
+        293,
+        799,
+        517
+      ]
+    },
+    {
+      "file": "01_movement_sheet_10.png",
+      "box": [
+        855,
+        285,
+        1045,
+        529
+      ]
+    },
+    {
+      "file": "01_movement_sheet_11.png",
+      "box": [
+        1089,
+        293,
+        1346,
+        524
+      ]
+    },
+    {
+      "file": "01_movement_sheet_12.png",
+      "box": [
+        42,
+        525,
+        238,
+        759
+      ]
+    },
+    {
+      "file": "01_movement_sheet_13.png",
+      "box": [
+        261,
+        561,
+        469,
+        757
+      ]
+    },
+    {
+      "file": "01_movement_sheet_14.png",
+      "box": [
+        499,
+        499,
+        668,
+        724
+      ]
+    },
+    {
+      "file": "01_movement_sheet_15.png",
+      "box": [
+        688,
+        522,
+        951,
+        714
+      ]
+    },
+    {
+      "file": "01_movement_sheet_16.png",
+      "box": [
+        952,
+        546,
+        1121,
+        753
+      ]
+    },
+    {
+      "file": "01_movement_sheet_17.png",
+      "box": [
+        1146,
+        548,
+        1340,
+        753
+      ]
+    }
+  ],
+  "02_attack_sheet": [
+    {
+      "file": "02_attack_sheet_01.png",
+      "box": [
+        29,
+        18,
+        229,
+        270
+      ]
+    },
+    {
+      "file": "02_attack_sheet_02.png",
+      "box": [
+        305,
+        17,
+        515,
+        269
+      ]
+    },
+    {
+      "file": "02_attack_sheet_03.png",
+      "box": [
+        584,
+        19,
+        780,
+        266
+      ]
+    },
+    {
+      "file": "02_attack_sheet_04.png",
+      "box": [
+        771,
+        14,
+        1080,
+        270
+      ]
+    },
+    {
+      "file": "02_attack_sheet_05.png",
+      "box": [
+        1035,
+        35,
+        1338,
+        268
+      ]
+    },
+    {
+      "file": "02_attack_sheet_06.png",
+      "box": [
+        41,
+        265,
+        235,
+        525
+      ]
+    },
+    {
+      "file": "02_attack_sheet_07.png",
+      "box": [
+        319,
+        271,
+        504,
+        522
+      ]
+    },
+    {
+      "file": "02_attack_sheet_08.png",
+      "box": [
+        588,
+        274,
+        782,
+        518
+      ]
+    },
+    {
+      "file": "02_attack_sheet_09.png",
+      "box": [
+        817,
+        271,
+        1070,
+        520
+      ]
+    },
+    {
+      "file": "02_attack_sheet_10.png",
+      "box": [
+        1083,
+        276,
+        1348,
+        520
+      ]
+    },
+    {
+      "file": "02_attack_sheet_11.png",
+      "box": [
+        27,
+        521,
+        249,
+        760
+      ]
+    },
+    {
+      "file": "02_attack_sheet_12.png",
+      "box": [
+        287,
+        558,
+        531,
+        748
+      ]
+    },
+    {
+      "file": "02_attack_sheet_13.png",
+      "box": [
+        578,
+        522,
+        802,
+        764
+      ]
+    },
+    {
+      "file": "02_attack_sheet_14.png",
+      "box": [
+        858,
+        515,
+        1053,
+        765
+      ]
+    },
+    {
+      "file": "02_attack_sheet_15.png",
+      "box": [
+        1086,
+        523,
+        1308,
+        715
+      ]
+    }
+  ],
+  "03_defence_sheet": [
+    {
+      "file": "03_defence_sheet_01.png",
+      "box": [
+        83,
+        17,
+        275,
+        263
+      ]
+    },
+    {
+      "file": "03_defence_sheet_02.png",
+      "box": [
+        425,
+        5,
+        604,
+        263
+      ]
+    },
+    {
+      "file": "03_defence_sheet_03.png",
+      "box": [
+        750,
+        24,
+        960,
+        262
+      ]
+    },
+    {
+      "file": "03_defence_sheet_04.png",
+      "box": [
+        1099,
+        18,
+        1307,
+        264
+      ]
+    },
+    {
+      "file": "03_defence_sheet_05.png",
+      "box": [
+        61,
+        267,
+        270,
+        515
+      ]
+    },
+    {
+      "file": "03_defence_sheet_06.png",
+      "box": [
+        409,
+        275,
+        630,
+        514
+      ]
+    },
+    {
+      "file": "03_defence_sheet_07.png",
+      "box": [
+        742,
+        266,
+        956,
+        514
+      ]
+    },
+    {
+      "file": "03_defence_sheet_08.png",
+      "box": [
+        1084,
+        273,
+        1320,
+        512
+      ]
+    },
+    {
+      "file": "03_defence_sheet_09.png",
+      "box": [
+        65,
+        515,
+        281,
+        757
+      ]
+    },
+    {
+      "file": "03_defence_sheet_10.png",
+      "box": [
+        400,
+        521,
+        611,
+        757
+      ]
+    },
+    {
+      "file": "03_defence_sheet_11.png",
+      "box": [
+        706,
+        653,
+        1011,
+        764
+      ]
+    },
+    {
+      "file": "03_defence_sheet_12.png",
+      "box": [
+        1096,
+        549,
+        1298,
+        760
+      ]
+    }
+  ],
+  "04_sword_sheet": [
+    {
+      "file": "04_sword_sheet_01.png",
+      "box": [
+        66,
+        12,
+        247,
+        297
+      ]
+    },
+    {
+      "file": "04_sword_sheet_02.png",
+      "box": [
+        267,
+        12,
+        481,
+        294
+      ]
+    },
+    {
+      "file": "04_sword_sheet_03.png",
+      "box": [
+        547,
+        23,
+        898,
+        280
+      ]
+    },
+    {
+      "file": "04_sword_sheet_04.png",
+      "box": [
+        808,
+        33,
+        1075,
+        285
+      ]
+    },
+    {
+      "file": "04_sword_sheet_05.png",
+      "box": [
+        1138,
+        15,
+        1342,
+        285
+      ]
+    },
+    {
+      "file": "04_sword_sheet_06.png",
+      "box": [
+        45,
+        275,
+        244,
+        527
+      ]
+    },
+    {
+      "file": "04_sword_sheet_07.png",
+      "box": [
+        314,
+        271,
+        588,
+        521
+      ]
+    },
+    {
+      "file": "04_sword_sheet_08.png",
+      "box": [
+        623,
+        273,
+        821,
+        522
+      ]
+    },
+    {
+      "file": "04_sword_sheet_09.png",
+      "box": [
+        866,
+        260,
+        1029,
+        526
+      ]
+    },
+    {
+      "file": "04_sword_sheet_10.png",
+      "box": [
+        1060,
+        274,
+        1321,
+        524
+      ]
+    },
+    {
+      "file": "04_sword_sheet_11.png",
+      "box": [
+        37,
+        523,
+        358,
+        758
+      ]
+    },
+    {
+      "file": "04_sword_sheet_12.png",
+      "box": [
+        386,
+        499,
+        595,
+        764
+      ]
+    },
+    {
+      "file": "04_sword_sheet_13.png",
+      "box": [
+        689,
+        492,
+        849,
+        766
+      ]
+    },
+    {
+      "file": "04_sword_sheet_14.png",
+      "box": [
+        944,
+        490,
+        1118,
+        766
+      ]
+    },
+    {
+      "file": "04_sword_sheet_15.png",
+      "box": [
+        1128,
+        487,
+        1331,
+        765
+      ]
+    }
+  ]
+}
