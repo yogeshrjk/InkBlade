@@ -1,0 +1,7 @@
+# local python env used for the sheet build
+.venv/
+__pycache__/
+*.pyc
+
+# uploaded reference material (local only)
+uploads/
