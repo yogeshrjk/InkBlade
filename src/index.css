@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #121210;
+    color: #e4e2d8;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #181816;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3a34;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #505048;
+}
+
+/* Japanese/Sumi-e inspired border accents */
+.sumi-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+.sumi-glass {
+  background: rgba(26, 26, 24, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.paper-texture {
+  background-color: #f6f3eb;
+  background-image: radial-gradient(#d6cec0 0.75px, transparent 0.75px), radial-gradient(#d6cec0 0.75px, #f6f3eb 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
