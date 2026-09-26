@@ -5,3 +5,8 @@ __pycache__/
 
 # uploaded reference material (local only)
 uploads/
+
+# node & build
+node_modules/
+dist/
+
